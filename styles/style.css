@@ -97,7 +97,6 @@ body{
     .recipe-container{
         margin-top: 100px;
         margin-bottom: 50px;
-        /* width: 80%; */
         text-align: center;
  }
  .recipe-container p{
@@ -111,7 +110,6 @@ body{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
-    /* border: 2px solid red; */
  }
  .recipe{
    box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.15);
