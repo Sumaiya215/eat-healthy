@@ -93,3 +93,83 @@ body{
     .mobile-description{
         display: none;
     }
+    /* My Recipes Section */
+    .recipe-container{
+        margin-top: 100px;
+        margin-bottom: 50px;
+        /* width: 80%; */
+        text-align: center;
+ }
+ .recipe-container p{
+    color: rgba(37, 37, 37, 1);
+    font-size: 18px;
+    line-height: 28px;
+ }
+ .image-and-text{
+    width: 85%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    /* border: 2px solid red; */
+ }
+ .recipe{
+   box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.15);
+   padding: 30px;
+   border-radius: 16px;
+ }
+ .image-1{
+    width: 300px;
+    height: 250px;
+    border-radius: 16px;
+ }
+ .recipe-title{
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 20px;
+ }
+ /* Subscribers Section */
+ .subscribers{
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.15);
+    padding: 60px 30px;
+    border-radius: 16px;
+ }
+ .subscriber-container .number{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 15px;
+ }
+ .subscriber-container .text{
+     font-size: 14px;
+ }
+ /* footer section */
+ footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding-top:30px;
+    padding-bottom: 100px;
+ }
+ footer h4{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+ }
+ .span1{
+    color: rgb(251, 140, 70);
+ }
+ .span2{
+    color: rgba(91, 91, 91, 1);
+ }
+ footer p{
+    color: gray;
+ }

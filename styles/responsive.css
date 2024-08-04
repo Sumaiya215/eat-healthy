@@ -61,5 +61,29 @@
     .text-container button{
         margin-bottom: 50px;
     }
+    .recipe-container{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .recipe-container p{
+        font-size: 16px;
+    }
+    .image-and-text{
+        width: 65%;
+        grid-template-columns: repeat(1,1fr);
+        margin-bottom: 180px;
+    }
+    .recipe-title{
+        font-size: 20px;
+    }
+    .recipe p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .subscribers{
+        width: 65%;
+        flex-direction: column;
+    }
     
 }
