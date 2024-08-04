@@ -1,0 +1,35 @@
+@media screen and (max-width:576px) {
+    .banner-container{
+        margin-top: 50px;
+     flex-direction: column;
+       gap: 170px;
+    }
+    .texts{
+        width: 80%;
+        height: 250px;
+    }
+    .banner-title{
+        font-size: 32px;
+        line-height: 46px;
+    }
+    .desktop-banner-des{
+        display: none;
+    }
+    .mobile-banner-des{
+        display: block;
+        font-size: 18px;
+       font-weight: 500;
+       color: rgba(130, 130, 130, 1);
+        line-height: 28px;
+        margin-bottom: 30px;
+    }
+    .image{
+        width: 80%;
+        text-align: center;
+    }
+    .image img{
+        width:350px;
+        height: 300px;
+    }
+    
+}
